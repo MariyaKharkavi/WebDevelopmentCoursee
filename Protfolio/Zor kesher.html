@@ -1,0 +1,68 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="עמוד הבית" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="מריה חרקבי" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <ul class="nav">
+                <li><a href="Home.html">עמוד הבית</a></li>
+                <li><a href="Tikshoret Xazutit.html">תקשורת חזותית</a></li>
+                <li><a href="Portret.html">פורטרט עצמי</a></li>
+                <li><a href="Odot.html">אודות</a></li>
+                <li><a class="active" href="Zor kesher.html">צור קשר</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <h1 id="head-line">מלאו את הפרטים הבאים לקבלת מידע נוסף מעורכת האתר <br />מריה חרקבי</h1>
+    
+    <form>
+        <input type="hidden" id="myEmail" name="name" value="mariyah23@gmail.com">
+
+        <section>
+            <label for="FirstName">
+
+                <input type="text" id="FirstName" placeholder="שם פרטי" />
+            </label>
+
+            <label for="LastName">
+                <input type="text" id="LastName" placeholder="שם משפחה" />
+            </label>
+
+            <label for="Phone">
+                <input type="text" id="Phone" placeholder="טלפון" />
+            </label>
+
+            <label for="Mail">
+                <input type="text" id="Mail" placeholder="דואר אלקטרוני" />
+            </label>
+        </section>
+
+
+        <input type="submit" id="Send" value="שלח">
+
+        <div id="feedback"></div>
+
+    </form>
+
+       
+    </div>
+</body>
+</html>
